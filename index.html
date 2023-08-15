@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="container">
+         <div class="nav_container">
+            <img src="https://img.freepik.com/free-icon/nike_318-565950.jpg" alt="NIKE" class="logo">
+            <div class="nav__item_block">
+                <a class="nav_item" href="#">New & Featured</a>
+                <a class="nav_item" href="#">Men</a>
+                <a class="nav_item" href="#">Women</a>
+                <a class="nav_item" href="#">Kids</a>
+                <a class="nav_item" href="#">Sale</a>
+            </div>
+            <div  class="nav__inp_search">
+                <div class="nav_inp">
+                    <input class="nav_inp_item"  placeholder="search" type="search">
+                    <input class="nav_sumbit" type="submit" placeholder="search" value="Поиск">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Создать товар -->
+
+   <div class="container_1">
+        <div class="container_2">
+            <div class="product">
+                <div class="product_1" id="createProduct">
+                    <p class="add_product">Create product +</p>
+                </div>
+            </div>
+    
+    
+            <!-- Модалка при клике на создать товар -->
+            <div class="modal__container">
+                <div class="modal__product">
+                    <div class="modal__product_block" id="modal__product_block">
+                        <input id="inpName" class="modal__product_item" type="search" placeholder="Name product :">
+                        <input id="inpDesc" class="modal__product_item" type="search" placeholder="Description :">
+                        <input id="inpImg" class="modal__product_item" type="search" placeholder="URL image :">
+                        <input id="inpPrice" class="modal__product_item" id="item" type="search" placeholder="Price :">
+                    </div>
+                    <div class="add_btn">
+                        <button id="btnAdd" class="">Add product</button>
+                    </div>
+                </div>
+            </div>
+    
+            <!--История  -->
+            <div class="navi">
+                <p class="navi_item" id="navi1">Jordan</p>
+                <p class="navi_item" id="navi2">Air Force</p>
+                <p class="navi_item" id="navi3">Running</p>
+                <p class="navi_item" id="navi4">Basketball</p>
+                <p class="navi_item" id="navi8">Football</p>
+                <p class="navi_item" id="navi5">Soccer</p>
+                <p class="navi_item" id="navi6">Training & GYM</p>
+                <p class="navi_item" id="navi7">SkateBoarding</p>
+                <p class="navi_item" id="navi9">Tennis</p>
+                <p class="navi_item" id="navi10">Golf</p>
+                <p class="navi_item" id="navi11">Boots</p>
+            </div>
+        </div>
+        <!-- Section -->
+        <div class="container_3" id="section">
+            <div class="cards_container" id="cardsContainer">
+<!--  -->
+            </div>
+            <div class="pagin">
+                <div class="pagin_block">
+                    <button class="pagin_btn" id="prevBtn">❮</button>
+                    <button class="pagin_btn" id="nextBtn">❯</button>
+                </div>
+            </div>
+        </div>
+        
+   </div>
+
+
+   <!-- Модальное окно для редактирования данных -->
+    <div class="edit__block" id="modalka">
+        <p class="edit__block_title">Edit product</p><span id="x">X</span>
+        <div class="edit__product">
+            <input class="edit_inp" type="search" id="editInpName" placeholder="Name product :">
+            <input class="edit_inp" type="search" id="editInpDesc" placeholder="Description :">
+            <input class="edit_inp" type="search" id="editInpImg" placeholder="URL image :">
+            <input class="edit_inp" type="search" id="editInpPrice" placeholder="Price :">
+        </div>
+        <div class="edit__button">
+            <button class="btn_save">Save</button>
+        </div>
+    </div>
+
+
+
+    
+
+
+
+
+
+
+<!-- JS -->
+    <script src="./main/main.js"></script>
+</body>
+
+</html>
