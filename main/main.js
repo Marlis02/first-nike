@@ -93,8 +93,12 @@ async function renderGoods() {
            </div>
            <div class="cards_btn">
                <button class="btn_edit"id="${id}">Edit</button>
+               <a href="./detail.html">
+               <button class="btn_details" id="${id}">Details</button>
+               </a>
                <button class="btn_delete" id="${id}">Delete</button>
            </div>
+           
 </div>`;
   });
   pageFunc();
@@ -230,3 +234,12 @@ searchBtn.addEventListener("click", () => {
 });
 
 //----------------------deatail====
+
+document.addEventListener("click", (event) => {
+  const detailBtn = event.target;
+  if (detailBtn.classList.contains("btn_details")) {
+    const id = detailBtn.getAttribute("id");
+    localStorage.setItem("detail-id", id);
+    console.log(id);
+  }
+});
