@@ -111,7 +111,7 @@
 }
 
 .modal__product_item {
-  width: 300px;
+  width: 280px;
   height: 50px;
   margin: 10px 0 10px 0;
   border-radius: 5px;
@@ -121,7 +121,7 @@
 }
 
 #btnAdd {
-  width: 300px;
+  width: 280px;
   height: 50px;
   margin-top: 20px;
   border-radius: 5px;
@@ -181,15 +181,15 @@
 /* cards */
 
 .cards_container {
-  margin: 50px;
+  margin: 30px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .cards {
   background-color: rgb(236, 236, 236);
-  width: 360px;
-  height: 600px;
+  width: 340px;
+  height: 580px;
   margin: 20px;
   transition: transform 0.2s;
 }
@@ -207,8 +207,8 @@
   height: 170px;
 }
 .cards_img {
-  width: 360px;
-  height: 360px;
+  width: 340px;
+  height: 340px;
 }
 
 .cards_item {

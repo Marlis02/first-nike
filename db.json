@@ -1,14 +1,14 @@
 {
   "files": [
     {
-      "name": "Nike Air Force",
+      "name": "Air Force",
       "desc": "35-45",
       "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/603bfe85-35ea-4baa-b870-5d51369d1b34/air-force-1-react-mens-shoes-WSjfs8.png",
       "price": "110",
       "id": 1
     },
     {
-      "name": "Air force",
+      "name": "Air force 1",
       "desc": "35-45",
       "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e6da41fa-1be4-4ce5-b89c-22be4f1f02d4/air-force-1-07-mens-shoes-jBrhbr.png",
       "price": "100",
